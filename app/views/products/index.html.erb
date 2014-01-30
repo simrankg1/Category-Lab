@@ -1,0 +1,7 @@
+<h1>List of products </h1>
+<% @products.each do |p| %>
+	<p> <%= p.name %></p>
+	<p> <%= p.price %></p>
+	<% end %>
+
+<%= debug @products %>
